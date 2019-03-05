@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT tvlisting (station*, program*, schedule*)>
+<!ELEMENT station (station_id, station_icon)*>
+<!ELEMENT station_id (#PCDATA)>
+<!ELEMENT station_icon (#PCDATA)>
+<!ELEMENT program (title, episode_id, episode_title, episode_program, air_date)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT episode_id (#PCDATA)>
+<!ELEMENT episode_title (#PCDATA)>
+<!ELEMENT episode_program (#PCDATA)>
+<!ELEMENT air_date (#PCDATA)>
+<!ELEMENT schedule (date, time)*>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT time (#PCDATA)>

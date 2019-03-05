@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tvlisting SYSTEM "tvlisting.dtd">
+<tvlisting> <!--this is the root element  -->
+        <station> <!-- this is a child of root and parent of all information you want for the station -->
+                <station_id>ABC</station_id>
+                <station_icon>ABC_logo</station_icon>
+        </station>  
+        <station>
+                <station_id>CBS</station_id>
+                <station_icon>CBS_logo</station_icon>
+        </station> 
+        <station>
+                <station_id>NBC</station_id>
+                <station_icon>NBC_logo</station_icon>
+        </station> 
+        <station>
+                <station_id>FOX</station_id>
+                <station_icon>FOX_logo</station_icon>
+        </station> 
+        <station>
+                <station_id>PBS</station_id>
+                <station_icon>PBS_logo</station_icon>
+        </station>
+        <program> <!-- this is a child of root and parent of all information you want for the tvshow -->
+                 <title>The Young and the Restless</title>
+                 <episode_id>CBS1</episode_id>
+                 <episode_title>NEW</episode_title>
+                 <episode_program>1</episode_program>
+                 <air_date >October 17</air_date>   
+        </program>
+        <program>
+                <title>The Bold and the B</title>
+                <episode_id>CBS2</episode_id>
+                <episode_title>NEW</episode_title>
+                <episode_program>2</episode_program>
+                <air_date >October 17</air_date>      
+       </program>
+       <program> 
+                <title>Local Programming</title>
+                <episode_id>ABC1</episode_id>
+                <episode_title>Education</episode_title>
+                <episode_program>2</episode_program>
+                <air_date >October 17</air_date>        
+       </program>
+       <program>
+                <title>GMA Day</title>
+                <episode_id>ABC2</episode_id>
+                <episode_title>Favourites</episode_title>
+                <episode_program>2</episode_program>
+                <air_date >October 17</air_date>
+        </program>
+        <program> 
+                <title>Local Programming</title>
+                <episode_id>NBC1</episode_id>
+                <episode_title>Education</episode_title>
+                <episode_program>2</episode_program>
+                <air_date >October 17</air_date>        
+        </program>
+        <program> 
+                        <title>Days of Our Lives</title>
+                        <episode_id>NBC2</episode_id>         
+                        <episode_title>New</episode_title>    
+                        <episode_program>1</episode_program>
+                        <air_date >October 17</air_date>           
+                </program>
+                <program> 
+                        <title>Local Programming</title>           
+                        <episode_id>FOX1</episode_id>                        
+                        <episode_title>Education</episode_title>
+                        <episode_program>2</episode_program>
+                        <air_date >October 17</air_date>              
+                </program>       
+                <program> 
+                        <title>Local Programming</title>
+                        <episode_id>FOX2</episode_id>                
+                        <episode_title>Education</episode_title>               
+                        <episode_program>2</episode_program>               
+                        <air_date >October 17</air_date>               
+                </program>        
+                <program> 
+                        <title>PEG+CAT</title>            
+                        <episode_id>PBS1</episode_id>               
+                        <episode_title>Movies</episode_title>               
+                        <episode_program>2</episode_program>               
+                        <air_date >October 17</air_date>                
+                </program>       
+                <program> 
+                        <title>Sesame Street</title>           
+                        <episode_id>PBS2</episode_id>               
+                        <episode_title>Kids</episode_title>               
+                        <episode_program>2</episode_program>              
+                        <air_date >October 17</air_date>               
+                </program>        
+                <program> 
+                        <title>Splash and Bubbles</title>           
+                        <episode_id>PBS3</episode_id>               
+                        <episode_title>Kids</episode_title>              
+                        <episode_program>2</episode_program>              
+                        <air_date >October 17</air_date>              
+                </program>      
+        <schedule><!-- this is a child of root and parent of all information you want for the station -->
+                <date>October 17</date>
+                <time>11:30am,12:00pm,13:30pm</time>
+        </schedule>                     
+</tvlisting>
